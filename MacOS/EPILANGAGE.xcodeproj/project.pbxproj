@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2695E2A425B1AD07F6FAFE4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2695E42CE469056B9EF3159A /* Assets.xcassets */; };
+		2695E3B2E1BD57A3C598B473 /* EPILANGAGETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695E727999C681DA8035376 /* EPILANGAGETests.swift */; };
+		2695E5539596849BEFFF1793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695ED6E734CA4B00C632264 /* AppDelegate.swift */; };
+		2695E5728EC0AFACE618FF69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695E1CF48B46D81D79DEEA9 /* ContentView.swift */; };
+		2695E624C6059E6E5FF6D359 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2695EB4916751DF5B7A4E231 /* Preview Assets.xcassets */; };
+		2695EA0C71B5487F9306B881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2695E272CAB180C6FFDB4DF9 /* Main.storyboard */; };
+		2695ED2A7EE9D811517647E0 /* EPILANGAGEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695EF80A899E71B5A71D1F0 /* EPILANGAGEUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2695E84CB0CD45D3D22A2E97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2695E4D884817D3474A02F03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2695E8DC4A42BE6A67BFCE38;
+			remoteInfo = EPILANGAGE;
+		};
+		2695ED711966A2C5AFC85F8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2695E4D884817D3474A02F03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2695E8DC4A42BE6A67BFCE38;
+			remoteInfo = EPILANGAGE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2695E1A24E4C57AFE78973C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		2695E1CF48B46D81D79DEEA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2695E2016B31247FDD07680D /* EPILANGAGE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EPILANGAGE.entitlements; sourceTree = "<group>"; };
+		2695E2E2C2AD5BAD03A31A4D /* EPILANGAGEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPILANGAGEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2695E37C67E3ABEA40219BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		2695E42CE469056B9EF3159A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2695E51F1EB9E8D3AEAE2B43 /* EPILANGAGETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPILANGAGETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2695E643D77E32E8633CCF80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		2695E727999C681DA8035376 /* EPILANGAGETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPILANGAGETests.swift; sourceTree = "<group>"; };
+		2695EB4916751DF5B7A4E231 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2695ED6E734CA4B00C632264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2695EF528A32015E28F1E554 /* EPILANGAGE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPILANGAGE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2695EF80A899E71B5A71D1F0 /* EPILANGAGEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPILANGAGEUITests.swift; sourceTree = "<group>"; };
+		2695EFBE766EABBABC53D8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2695E2AF9AF73E26187FA934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2695E98025C8697EFB9A7664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2695EC08C04803060F935A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2695E0398143B27E0E4DC591 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2695EB4916751DF5B7A4E231 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2695E098354E805EE44B5B6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2695EF528A32015E28F1E554 /* EPILANGAGE.app */,
+				2695E51F1EB9E8D3AEAE2B43 /* EPILANGAGETests.xctest */,
+				2695E2E2C2AD5BAD03A31A4D /* EPILANGAGEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2695E494DE14330A610470CB = {
+			isa = PBXGroup;
+			children = (
+				2695E098354E805EE44B5B6E /* Products */,
+				2695ED720A9CCE121C5FD673 /* EPILANGAGE */,
+				2695E77F1C7321F9E74B893B /* EPILANGAGETests */,
+				2695ED93A214243EE7F8823F /* EPILANGAGEUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		2695E77F1C7321F9E74B893B /* EPILANGAGETests */ = {
+			isa = PBXGroup;
+			children = (
+				2695E643D77E32E8633CCF80 /* Info.plist */,
+				2695E727999C681DA8035376 /* EPILANGAGETests.swift */,
+			);
+			path = EPILANGAGETests;
+			sourceTree = "<group>";
+		};
+		2695ED720A9CCE121C5FD673 /* EPILANGAGE */ = {
+			isa = PBXGroup;
+			children = (
+				2695E1A24E4C57AFE78973C3 /* Info.plist */,
+				2695E42CE469056B9EF3159A /* Assets.xcassets */,
+				2695E2016B31247FDD07680D /* EPILANGAGE.entitlements */,
+				2695ED6E734CA4B00C632264 /* AppDelegate.swift */,
+				2695E272CAB180C6FFDB4DF9 /* Main.storyboard */,
+				2695E1CF48B46D81D79DEEA9 /* ContentView.swift */,
+				2695E0398143B27E0E4DC591 /* Preview Content */,
+			);
+			path = EPILANGAGE;
+			sourceTree = "<group>";
+		};
+		2695ED93A214243EE7F8823F /* EPILANGAGEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2695E37C67E3ABEA40219BC8 /* Info.plist */,
+				2695EF80A899E71B5A71D1F0 /* EPILANGAGEUITests.swift */,
+			);
+			path = EPILANGAGEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2695E3CF3E2F0FDA51CC2B0A /* EPILANGAGETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2695EAECC10226D2759353E5 /* Build configuration list for PBXNativeTarget "EPILANGAGETests" */;
+			buildPhases = (
+				2695E49BFBC84AAD52C1B291 /* Sources */,
+				2695EC08C04803060F935A39 /* Frameworks */,
+				2695E9F91ADB5C955C0FB02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2695E9C3826C4BABF9615767 /* PBXTargetDependency */,
+			);
+			name = EPILANGAGETests;
+			productName = EPILANGAGETests;
+			productReference = 2695E51F1EB9E8D3AEAE2B43 /* EPILANGAGETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2695E8DC4A42BE6A67BFCE38 /* EPILANGAGE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2695E98BD85B5E0C57B945BE /* Build configuration list for PBXNativeTarget "EPILANGAGE" */;
+			buildPhases = (
+				2695E518D75BB9924ADE35E8 /* Sources */,
+				2695E2AF9AF73E26187FA934 /* Frameworks */,
+				2695E26F9B3E8583CB5F5824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPILANGAGE;
+			productName = EPILANGAGE;
+			productReference = 2695EF528A32015E28F1E554 /* EPILANGAGE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2695ECF75DB575B0CE63457E /* EPILANGAGEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2695E3C3C091206E617E886B /* Build configuration list for PBXNativeTarget "EPILANGAGEUITests" */;
+			buildPhases = (
+				2695EA08CC09564DA62B3729 /* Sources */,
+				2695E98025C8697EFB9A7664 /* Frameworks */,
+				2695E90D5FCD6593EF067027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2695E107137634648555921B /* PBXTargetDependency */,
+			);
+			name = EPILANGAGEUITests;
+			productName = EPILANGAGEUITests;
+			productReference = 2695E2E2C2AD5BAD03A31A4D /* EPILANGAGEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2695E4D884817D3474A02F03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 2695E315E12EA9D008A402B5 /* Build configuration list for PBXProject "EPILANGAGE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2695E494DE14330A610470CB;
+			productRefGroup = 2695E098354E805EE44B5B6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2695E8DC4A42BE6A67BFCE38 /* EPILANGAGE */,
+				2695E3CF3E2F0FDA51CC2B0A /* EPILANGAGETests */,
+				2695ECF75DB575B0CE63457E /* EPILANGAGEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2695E26F9B3E8583CB5F5824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2695E2A425B1AD07F6FAFE4A /* Assets.xcassets in Resources */,
+				2695EA0C71B5487F9306B881 /* Main.storyboard in Resources */,
+				2695E624C6059E6E5FF6D359 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2695E90D5FCD6593EF067027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2695E9F91ADB5C955C0FB02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2695E49BFBC84AAD52C1B291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2695E3B2E1BD57A3C598B473 /* EPILANGAGETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2695E518D75BB9924ADE35E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2695E5539596849BEFFF1793 /* AppDelegate.swift in Sources */,
+				2695E5728EC0AFACE618FF69 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2695EA08CC09564DA62B3729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2695ED2A7EE9D811517647E0 /* EPILANGAGEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2695E107137634648555921B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2695E8DC4A42BE6A67BFCE38 /* EPILANGAGE */;
+			targetProxy = 2695E84CB0CD45D3D22A2E97 /* PBXContainerItemProxy */;
+		};
+		2695E9C3826C4BABF9615767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2695E8DC4A42BE6A67BFCE38 /* EPILANGAGE */;
+			targetProxy = 2695ED711966A2C5AFC85F8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2695E272CAB180C6FFDB4DF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2695EFBE766EABBABC53D8FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2695E0A0DF6F099C1F3FE492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EPILANGAGE.app/Contents/MacOS/EPILANGAGE";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EPILANGAGETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = something.EPILANGAGETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		2695E13A8E278FCD1A7A8166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EPILANGAGE/EPILANGAGE.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"EPILANGAGE/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EPILANGAGE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = something.EPILANGAGE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2695E296ACC79536BA9A07F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EPILANGAGEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = something.EPILANGAGEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EPILANGAGE;
+			};
+			name = Debug;
+		};
+		2695E8D82DDBAFBB445BC239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EPILANGAGE/EPILANGAGE.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"EPILANGAGE/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = EPILANGAGE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = something.EPILANGAGE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2695E93BD433460ACEBA9AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2695EBFD772117CAA16861FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EPILANGAGEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = something.EPILANGAGEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = EPILANGAGE;
+			};
+			name = Release;
+		};
+		2695ECC905206FA1FF677C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2695ED790DEEF1FF86FA0221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EPILANGAGE.app/Contents/MacOS/EPILANGAGE";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EPILANGAGETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = something.EPILANGAGETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2695E315E12EA9D008A402B5 /* Build configuration list for PBXProject "EPILANGAGE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2695ECC905206FA1FF677C41 /* Debug */,
+				2695E93BD433460ACEBA9AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2695E3C3C091206E617E886B /* Build configuration list for PBXNativeTarget "EPILANGAGEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2695E296ACC79536BA9A07F8 /* Debug */,
+				2695EBFD772117CAA16861FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2695E98BD85B5E0C57B945BE /* Build configuration list for PBXNativeTarget "EPILANGAGE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2695E8D82DDBAFBB445BC239 /* Debug */,
+				2695E13A8E278FCD1A7A8166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2695EAECC10226D2759353E5 /* Build configuration list for PBXNativeTarget "EPILANGAGETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2695ED790DEEF1FF86FA0221 /* Debug */,
+				2695E0A0DF6F099C1F3FE492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2695E4D884817D3474A02F03 /* Project object */;
+}

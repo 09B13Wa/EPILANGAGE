@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2695EBAB7CEBE43BE3CA0D6C"
+               BuildableName = "EPILANGUAGE.app"
+               BlueprintName = "EPILANGUAGE"
+               ReferencedContainer = "container:EPILANGUAGE.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2695EBAB7CEBE43BE3CA0D6C"
+            BuildableName = "EPILANGUAGE.app"
+            BlueprintName = "EPILANGUAGE"
+            ReferencedContainer = "container:EPILANGUAGE.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
